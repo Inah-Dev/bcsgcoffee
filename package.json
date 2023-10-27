@@ -1,0 +1,22 @@
+{
+  "name": "bcsgcoffee",
+  "version": "1.0.0",
+  "description": "BCSG Systems Security coffee shop",
+  "main": "coffeeserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inah-Dev/bcsgcoffee.git"
+  },
+  "author": "Inah Omoronyia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inah-Dev/bcsgcoffee/issues"
+  },
+  "homepage": "https://github.com/Inah-Dev/bcsgcoffee#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

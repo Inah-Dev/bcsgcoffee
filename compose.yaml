@@ -1,0 +1,7 @@
+services:
+ bcsgcoffee1:
+  image: inahomoronyia/bcsgcoffee
+  deploy:
+   replicas: 10
+  ports:
+   - "8080:3000"
