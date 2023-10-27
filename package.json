@@ -4,6 +4,7 @@
   "description": "BCSG Systems Security coffee shop",
   "main": "coffeeserver.js",
   "scripts": {
+    "start":"node coffeeserver.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
