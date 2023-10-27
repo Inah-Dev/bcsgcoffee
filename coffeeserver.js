@@ -1,6 +1,7 @@
 
 const express = require('express')
 var ifs = require('os').networkInterfaces();
+var os = require("os");
 
 const app = express()
 const port = 3000
@@ -56,7 +57,7 @@ function serveCoffee(type = undefined){
         cup =`&#129335;`
         message = "Not available"
     }
-    message = `${message}<br>You are being served by: ${address}:${port}`
+    message = `${message}<br>You are being served by: ${os.hostname()}`
 
     let contentPayload = `    
     <html>
